@@ -11,8 +11,10 @@ namespace Cebolinha
 			string Frase = Console.ReadLine();
 			Console.Clear();
 			string Cebolinha = Frase
-			    .Replace("r" , "l")
-			    .Replace("R" , "L");
+			    .Replace("rr" , "l")
+			    .Replace("r" , "l")				
+			    .Replace("RR" , "L");
+		            .Replace("R" , "L");
 			Console.WriteLine(Cebolinha);
         }
     }
